@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Technical writing
 
-For Japanese prose, read [Japanese technical writing](references/japanese.md). It supplies the sentence-level rules in place of English-only prescriptions below, including those in the checklist: word counts, articles, `you`/`we`, imperative grammar, sentence case, `-ing`, serial commas, and English punctuation. Keep the Diátaxis modes and language-independent requirements. For English output, use the original English guidance below. Preserve required uncertainty even in reference documents.
+For Japanese prose, read [Japanese technical writing](references/japanese.md). It supplies the sentence-level rules in place of the English-only prescriptions below: word counts, articles, `you`/`we`, imperative grammar, sentence case, `-ing`, serial commas, and English punctuation. Keep the Diátaxis modes and language-independent requirements. For English output, use the original English guidance below. Preserve required uncertainty even in reference documents.
 
 Read [the language policy](../../references/japanese-language-policy.md) before writing or delegating. It applies to direct invocation as well as calls from `poteto-mode`.
 
@@ -116,16 +116,3 @@ Before:
 After:
 
 > `budget.mjs` reads the committed budget from `budget.json` and counts the files that import protos. If the count exceeds the budget, CI fails. Run `budget.mjs --write` only to lower the budget.
-
-## Review checklist
-
-Apply to any prose this skill covers. Item 1 applies only to document sets:
-
-1. Is each file one Diátaxis mode, with links where modes meet?
-2. Is every instruction written as a command, with its condition in front?
-3. Does any sentence carry two instructions or two thoughts? Split it.
-4. Can any word be cut without losing meaning? Cut it.
-5. Is "only" next to the word it changes? Does every "it" point at one thing? Does every clause keep its verb?
-6. Does each thing have exactly one name across the docs?
-7. Would a developer say these words out loud? Replace invented metaphors and fancy synonyms with the plain word or the real symbol name.
-8. Are all symbols, paths, and counts real at this commit, with the commands that regenerate the counts?
