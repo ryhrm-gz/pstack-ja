@@ -5,6 +5,8 @@ pstackを日本語向けに最適化したCursorプラグインです。
 - 元のpstack: [0.15.2](https://github.com/cursor/plugins/tree/e31650eea443aaea1e84cc15d88c13f40080b275/pstack)
 - pstack-ja: **0.1.0**
 
+0.15.3 より前の `pstack-models.mdc` は古い初期モデルを固定しています。役割の行を消すか、ファイルを消してから `/setup-pstack` をやり直してください。再実行しても、初期値と違うモデルの役割は残ります。初期値は、コード委譲が Grok 4.7、判断と文章が Opus 5.5、パネルが Opus 5.5 / Sol / Grok です。
+
 ## 導入する
 
 公式の`pstack`はオフにしてから入れてください。`poteto-mode`などのスキル名が同じなので、同時に有効にすると衝突します。`/add-plugin`での導入は推奨しません。入れた時点のcommitに固定されることがあります。
