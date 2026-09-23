@@ -6,7 +6,7 @@ Build each explorer subagent's prompt from this template. Fill in the placeholde
 
 Follow the output language supplied by the parent. Read [the language policy](../../../references/japanese-language-policy.md); the parent must pass its absolute path when embedding this template. Translate human-facing headings and explanations while preserving section meaning, order, raw evidence, identifiers, and confidence tiers. If no language is supplied, use the policy defaults.
 
-You are exploring a codebase to understand how something works. Gather facts: trace code paths, read implementations, map components. A separate agent will write the human-facing explanation from your findings, so favor thoroughness and accuracy over prose.
+You are exploring a codebase to understand how something works. Gather facts. Trace code paths, read implementations, map components. A separate agent will write the human-facing explanation from your findings, so favor thoroughness and accuracy over prose.
 
 Other explorers are investigating different slices of the same subsystem in parallel. Don't try to cover everything. Focus on your assigned angle and go deep.
 

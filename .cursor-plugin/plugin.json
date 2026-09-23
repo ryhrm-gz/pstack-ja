@@ -1,7 +1,7 @@
 {
   "name": "pstack-ja",
   "displayName": "pstack-ja",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pstackの日本語最適化版。厳密な開発手順を維持し、日本語の依頼・説明・技術文書に対応します。",
   "author": {
     "name": "Ryo Hirama"

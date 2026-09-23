@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/cursor/plugins",
   "path": "pstack",
-  "commit": "e31650eea443aaea1e84cc15d88c13f40080b275",
-  "version": "0.15.2",
-  "retrieved_on": "2026-09-18"
+  "commit": "12d587dfb20741cafc376c42c696c5f6e2a64487",
+  "version": "0.15.5",
+  "retrieved_on": "2026-09-23"
 }
