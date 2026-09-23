@@ -2,8 +2,8 @@
 
 pstackを日本語向けに最適化したCursorプラグインです。
 
-- 元のpstack: [0.15.2](https://github.com/cursor/plugins/tree/e31650eea443aaea1e84cc15d88c13f40080b275/pstack)
-- pstack-ja: **0.1.0**
+- 元のpstack: [0.15.5](https://github.com/cursor/plugins/tree/12d587dfb20741cafc376c42c696c5f6e2a64487/pstack)
+- pstack-ja: **0.1.1**
 
 0.15.3 より前の `pstack-models.mdc` は古い初期モデルを固定しています。役割の行を消すか、ファイルを消してから `/setup-pstack` をやり直してください。再実行しても、初期値と違うモデルの役割は残ります。初期値は、コード委譲が Grok 4.7、判断と文章が Opus 5.5、パネルが Opus 5.5 / Sol / Grok です。
 
@@ -16,7 +16,7 @@ mkdir -p ~/.cursor/plugins/local
 rsync -a --delete --exclude .git /path/to/pstack-ja/ ~/.cursor/plugins/local/pstack-ja/
 ```
 
-使い方は元の [pstack guide](https://github.com/cursor/plugins/blob/e31650eea443aaea1e84cc15d88c13f40080b275/pstack/docs/guide/README.md) を見てください。
+使い方は元の [pstack guide](https://github.com/cursor/plugins/blob/12d587dfb20741cafc376c42c696c5f6e2a64487/pstack/docs/guide/README.md) を見てください。
 
 ## 日本語向けに最適化したスキル
 
